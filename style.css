@@ -1,0 +1,40 @@
+*
+    {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: block;
+    text-align: center;
+   
+}
+
+h1, p, h2, h3 {
+    padding: 25px;
+}
+
+ul, ol, p {
+    text-align: justify;
+    width: 600px;
+    margin: 10px auto;
+}
+
+ h2, h3 {
+    border: 2px solid black;
+    width: 600px;
+    margin: 0 auto;
+    height: 80px;
+
+}
+
+h2.bread, h3.bread {
+    border: 2px solid rgb(209, 148, 17);
+    background-color: rgba(240, 227, 171, 0.452);
+}
+
+h2.pizza, h3.pizza {
+    border: 2px solid green;
+}
